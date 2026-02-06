@@ -20,8 +20,8 @@ function reset(){
     solution = undefined;
     gameText.textContent = "enter a 5 letter word";
     gameText.style.color = "black";
-    for(i = 0; i < 5; i++){
-        for(j = 0; j < 5; j++){
+    for(i = 0; i < 6; i++){
+        for(j = 0; j < 6; j++){
             tBlock = document.getElementById(`block${i}${j}`);
             tBlock.style.backgroundColor = "gray";
             tText = document.getElementById(`letter${i}${j}`);
@@ -81,5 +81,6 @@ function submitGuess(){
     
 
 }
+
 
 
