@@ -19,6 +19,7 @@ function reset(){
     gameOver = false;
     solution = undefined;
     gameText.textContent = "enter a 5 letter word";
+    gameText.style.color = "black";
     for(i = 0; i < 5; i++){
         for(j = 0; j < 5; j++){
             tBlock = document.getElementById(`block${i}${j}`);
@@ -80,4 +81,5 @@ function submitGuess(){
     
 
 }
+
 
