@@ -7,7 +7,7 @@ let solution;
 
 
 function revealAnswer(){
-    gameText.textContent = ´the answer was: %{solution}´;
+    gameText.textContent = `the answer was: %{solution}`;
 }
 
 function reset(){
@@ -76,3 +76,4 @@ function submitGuess(){
     
 
 }
+
