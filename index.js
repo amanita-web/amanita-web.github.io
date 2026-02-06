@@ -33,8 +33,8 @@ function reset(){
         tBlock.style.backgroundColor = "gray";
         tText = document.getElementById(`letter5${i}`);
         tText.textContent = "---";
+    }
 }
-
 
 function generateSolution(solution){
     return solutions[Math.floor(Math.random() * solutions.length)];
@@ -86,6 +86,7 @@ function submitGuess(){
     
 
 }
+
 
 
 
