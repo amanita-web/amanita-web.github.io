@@ -9,6 +9,10 @@ body{
     background-color: #141416;
 }
 
+#gameText{
+    color: white;
+}
+
 #first{
     background-color: grey;
     
@@ -41,3 +45,4 @@ span{
 #second2{
     background-color: gray;
 }
+
