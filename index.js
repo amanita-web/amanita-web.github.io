@@ -2,7 +2,13 @@ let guess;
 let gameText = document.getElementById("gameText");
 let round = 0;
 let gameOver = false;
-const solutions = ["joker", "gamer", "spoil", "plane", "grand", "trust", "grain", "amber", "tiled", "fault", "audio", "shark", "build", "tulip", "spire"]
+const solutions = [
+    "apple", "bread", "chair", "table", "house", "plant", "water", "smile", "happy", "light",
+  "sound", "clock", "stone", "grass", "cloud", "mouse", "phone", "paper", "heart", "sleep",
+  "drink", "river", "beach", "fruit", "green", "white", "black", "sweet", "round", "clean",
+  "quiet", "music", "laugh", "bread", "candy", "peace", "earth", "dream", "sharp", "watch",
+  "dance", "smoke", "train", "sunny", "storm", "flame", "wheel", "smell", "fresh", "sunny"
+];
 let solution;
 
 function revealAnswer(){
@@ -86,6 +92,7 @@ function submitGuess(){
     
 
 }
+
 
 
 
