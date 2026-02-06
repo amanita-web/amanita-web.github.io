@@ -1,10 +1,14 @@
 let guess;
-let gameText = document.getElementById("gameText")
-let round = 0
-let gameOver = false
-const solutions = ["joker", "gamer", "spoil", "plane", "grand", "trust", "grain", "amber", "tiled", "fault"]
+let gameText = document.getElementById("gameText");
+let round = 0;
+let gameOver = false;
+const solutions = ["joker", "gamer", "spoil", "plane", "grand", "trust", "grain", "amber", "tiled", "fault"];
 let solution;
 
+
+function revealAnswer(){
+    gameText.textContent = ´the answer was: %{solution}´;
+}
 
 function reset(){
     guess = "xxxxx";
@@ -70,4 +74,5 @@ function submitGuess(){
     }
     
     
+
 }
