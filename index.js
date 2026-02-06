@@ -20,14 +20,19 @@ function reset(){
     solution = undefined;
     gameText.textContent = "enter a 5 letter word";
     gameText.style.color = "black";
-    for(i = 0; i <= 5; i++){
-        for(j = 0; j <= 5; j++){
+    for(i = 0; i < 5; i++){
+        for(j = 0; j < 5; j++){
             tBlock = document.getElementById(`block${i}${j}`);
             tBlock.style.backgroundColor = "gray";
             tText = document.getElementById(`letter${i}${j}`);
             tText.textContent = "---";
         }
     }
+    for(i = 0; i < 5; i++){
+        tBlock = document.getElementById(`block5${i}`);
+        tBlock.style.backgroundColor = "gray";
+        tText = document.getElementById(`letter5${i}`);
+        tText.textContent = "---";
 }
 
 
@@ -81,6 +86,7 @@ function submitGuess(){
     
 
 }
+
 
 
 
