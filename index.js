@@ -25,7 +25,7 @@ function reset(){
     gameOver = false;
     solution = undefined;
     gameText.textContent = "enter a 5 letter word";
-    gameText.style.color = "black";
+    gameText.style.color = "white";
     for(i = 0; i < 5; i++){
         for(j = 0; j < 5; j++){
             tBlock = document.getElementById(`block${i}${j}`);
@@ -85,13 +85,14 @@ function submitGuess(){
     }  
     if(round == 6){
         gameText.textContent = "you losed...";
-        gameText.style.color = "gray";
+        gameText.style.color = "red";
         gameOver = true;
     }
     
     
 
 }
+
 
 
 
