@@ -9,7 +9,7 @@ function revealAnswer(){
     if(solution == undefined){
         solution = generateSolution(solutions);
     }
-    gameText.textContent = `the answer was: ${solution}`;
+gameText.textContent = `the answer was: ${solution}`;
 }
 
 
@@ -80,3 +80,4 @@ function submitGuess(){
     
 
 }
+
